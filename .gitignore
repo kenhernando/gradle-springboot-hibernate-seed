@@ -1,0 +1,14 @@
+build
+gradlew
+gradlew.bat
+bin
+Servers
+.metadata
+.gradle
+.settings
+.classpath
+.project
+.metadata
+Servers
+logs
+.recommenders
