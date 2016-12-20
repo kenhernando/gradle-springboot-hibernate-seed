@@ -49,7 +49,7 @@ public class PlanetController {
 	@RequestMapping(value = "/updatePlanet/{id}", method = RequestMethod.GET)
 	public String updatePlanet(@PathVariable("id") int id) {
 		planetService.updatePlanetById(id);
-		return "Planet has been deleted.";
+		return "Planet has been updated.";
 	}
 	
 	@RequestMapping(value = "/deletePlanet/{id}", method = RequestMethod.GET)
