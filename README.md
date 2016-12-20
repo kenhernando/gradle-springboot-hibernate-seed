@@ -12,9 +12,3 @@
 * Runs on port 8085\*
 
 \*apply changes in `src\main\resources\application.properties` as necessary
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
