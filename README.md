@@ -7,6 +7,7 @@
 ### How do I get set up? ###
 
 * Install MySQL (build tested using an external database: MySQL v5.7.13, You may opt to use an embedded data source\*)
+* Add your database credentials\*
 * If behind a corporate firewall, ensure proper proxies are set in your environment variables (use the variables: *http_proxy* and *https_proxy*)
 * Clone this repository
 * Runs on port 8085\*
