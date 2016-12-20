@@ -46,7 +46,7 @@ public class PlanetController {
 		return "Hello Gradle " + planet.getName() + "!";
 	}
 	
-	@RequestMapping(value = "/deletePlanet/{id}", method = RequestMethod.GET)
+	@RequestMapping(value = "/updatePlanet/{id}", method = RequestMethod.GET)
 	public String updatePlanet(@PathVariable("id") int id) {
 		planetService.updatePlanetById(id);
 		return "Planet has been deleted.";
